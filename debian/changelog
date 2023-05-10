@@ -1,5 +1,59 @@
-template-repository (1.0-1) unstable; urgency=medium
+libwww-form-urlencoded-perl (0.26-2) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Update standards version to 4.5.0, no changes needed.
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.6.1, no changes needed.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 04 Dec 2022 15:26:28 +0000
+
+libwww-form-urlencoded-perl (0.26-1) unstable; urgency=medium
+
+  * Import upstream version 0.26.
+  * Drop arch_all.patch, set new env variable in debian/rules instead.
+  * Update years of packaging copyright.
+  * Annotate test-only build dependencies with <!nocheck>.
+  * Declare compliance with Debian Policy 4.4.1.
+  * Bump debhelper-compat to 12.
+  * debian/watch: use uscan version 4.
+  * Remove obsolete fields Name, Contact from debian/upstream/metadata.
+  * Make dependency on libwww-form-urlencoded-xs-perl versioned in Build-
+    Depends-Indep and Recommends.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 10 Nov 2019 22:54:29 +0100
+
+libwww-form-urlencoded-perl (0.25-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * Import upstream version 0.25.
+  * Update build dependencies.
+  * Declare compliance with Debian Policy 4.2.1.
+  * Bump debhelper compatibility level to 10.
+  * Update years of packaging copyright.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 20 Oct 2018 18:29:54 +0200
+
+libwww-form-urlencoded-perl (0.24-1) unstable; urgency=medium
+
+  * Import upstream version 0.24.
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 4.1.1.
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 01 Nov 2017 18:11:53 +0100
+
+libwww-form-urlencoded-perl (0.23-2) unstable; urgency=medium
+
+  * Add libwww-form-urlencoded-xs-perl to Build-Depends-Indep and
+    Recommends.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 01 Nov 2016 00:35:31 +0100
+
+libwww-form-urlencoded-perl (0.23-1) unstable; urgency=low
+
+  * Initial release (closes: #841742).
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 23 Oct 2016 01:53:09 +0200
