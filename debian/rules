@@ -1,4 +1,7 @@
 #!/usr/bin/make -f
 
+# this variable avoids installing pure perl code into arch-dependent directories
+export BREAK_BACKWARD_COMPAT=1
+
 %:
 	dh $@
